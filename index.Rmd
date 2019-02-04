@@ -1,0 +1,10 @@
+--- 
+title: "R, Git & GitHub"
+author: "Aravind Hebbali"
+site: bookdown::bookdown_site
+documentclass: book
+link-citations: yes
+description: "Introduction to version control with R, Git and GitHub."
+---
+
+# Welcome {-}
