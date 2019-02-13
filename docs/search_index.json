@@ -1,10 +1,10 @@
 [
-["index.html", "R, Git &amp; GitHub Welcome", " R, Git &amp; GitHub Aravind Hebbali Welcome "],
+["index.html", "R, Git &amp; GitHub Welcome Structure of the book Software information", " R, Git &amp; GitHub Aravind Hebbali 2019-02-13 Welcome This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Structure of the book Chapter 1 introduces the concept of version control and its benefits. Chapter 2 introduces basic command line skills. Chapter 3 deals with setting up git. Chapter 4 shows how to set up GitHub projects using RStudio. Chapter 5 gives a tour of GitHub features. Chapter 6 explores git commands in some detail. Software information The R session information when compiling this book is shown below: sessionInfo() ## R version 3.5.1 (2018-07-02) ## Platform: x86_64-w64-mingw32/x64 (64-bit) ## Running under: Windows 10 x64 (build 17134) ## ## Matrix products: default ## ## locale: ## [1] LC_COLLATE=English_India.1252 LC_CTYPE=English_India.1252 ## [3] LC_MONETARY=English_India.1252 LC_NUMERIC=C ## [5] LC_TIME=English_India.1252 ## ## attached base packages: ## [1] stats graphics grDevices utils datasets methods base ## ## loaded via a namespace (and not attached): ## [1] compiler_3.5.1 magrittr_1.5 bookdown_0.7 tools_3.5.1 ## [5] htmltools_0.3.6 rstudioapi_0.8 yaml_2.2.0 Rcpp_1.0.0 ## [9] stringi_1.2.4 rmarkdown_1.11 knitr_1.21 stringr_1.3.1 ## [13] xfun_0.4 digest_0.6.18 evaluate_0.12 "],
+["about-the-author.html", "About the Author", " About the Author Aravind Hebbali is the founder of Rsquared Academy. He earned his Masters in Economics from Madras School of Economics. As an active R user, he has authored several R packages such as olsrr rfm descriptr blorr xplorerr In 2015, he founded Rsquared Academy, a free and open source education initiative with focus on data science and analytics. Apart from self paced online courses, Rsquared Academy offers customized learning modules for corporates and universities. You can find him on GitHub. "],
 ["intro.html", "Chapter 1 Introduction", " Chapter 1 Introduction "],
 ["shell.html", "Chapter 2 Introduction to Shell", " Chapter 2 Introduction to Shell "],
 ["setup.html", "Chapter 3 Installation &amp; Set Up", " Chapter 3 Installation &amp; Set Up "],
 ["projects.html", "Chapter 4 Projects", " Chapter 4 Projects "],
 ["tour.html", "Chapter 5 GitHub Tour", " Chapter 5 GitHub Tour "],
-["commands.html", "Chapter 6 Git Commands", " Chapter 6 Git Commands "],
-["references.html", "References", " References "]
+["commands.html", "Chapter 6 Git Commands", " Chapter 6 Git Commands "]
 ]
