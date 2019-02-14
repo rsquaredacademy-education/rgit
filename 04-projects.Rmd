@@ -1,2 +1,27 @@
 # Projects {#projects}
 
+## New Projects
+
+### Create repository
+
+### Clone repository
+
+### Make changes
+
+### Stage, Commit & Push
+
+### Modify remote repo
+
+### Pull changes
+
+## Existing Projects
+
+### Create repository
+
+### Clone repository
+
+### Move files
+
+### Stage, Commit & Push
+
+### Check remote repo

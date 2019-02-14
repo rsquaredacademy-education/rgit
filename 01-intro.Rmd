@@ -1,2 +1,35 @@
 # Introduction {#intro}
 
+## Version Control
+
+### Create Backups
+
+### Track Changes
+
+### Work Collaboratively
+
+### Prevent Conflicts
+
+## Git 
+
+### Distributed
+
+### Free
+
+### Open Source
+
+### Flexible
+
+### Secure
+
+## GitHub
+
+## Pre-requisites
+
+### GitHub Account
+
+### R
+
+### RStudio
+
+### Git

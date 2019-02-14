@@ -1,2 +1,31 @@
 # Introduction to Shell {#shell}
 
+## Introduction
+
+## Directory
+
+### Current directory
+
+### Navigate
+
+### View contents
+
+### Create directory
+
+### Remove directory
+
+## Files
+
+### List files
+
+### Copy files
+
+### Rename files
+
+### Remove files
+
+### Move files
+
+## Word count
+
+## References

@@ -1,2 +1,20 @@
 # Installation & Set Up {#setup}
 
+## GitHub Repository
+
+## Configure Git
+
+## Workflow
+
+### Clone repository
+
+### Make changes
+
+### Register changes
+
+### Push changes
+
+### Check remote
+
+## Configure RStudio
+
