@@ -2,6 +2,10 @@
 
 ## Introduction
 
+In this chapter, we will learn the basics of using command line. We will learn
+just enough topics to be able to use Git & GitHub. If you want to learn more,
+we have listed a few resources at the end of the chapter for reference.
+
 ## Directory
 
 ### Current directory
