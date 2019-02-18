@@ -6,26 +6,131 @@
 
 ### Current directory
 
+```{sh pwd}
+pwd
+```
+
 ### Navigate
+
+```{sh cd}
+cd docs
+pwd
+```
+
+```{sh cd2}
+cd ..
+pwd
+```
 
 ### View contents
 
+```{sh ls}
+ls
+```
+
 ### Create directory
 
+```{sh mkdir}
+mkdir examples
+ls
+```
+
 ### Remove directory
+
+```{sh rmdir}
+rmdir examples
+ls
+```
 
 ## Files
 
 ### List files
 
+```{sh ls2}
+ls
+```
+
+```{sh ls3}
+ls -a
+```
+
 ### Copy files
+
+```{sh cp}
+cp index.Rmd home.Rmd
+ls
+```
 
 ### Rename files
 
+```{sh mv}
+mv home.Rmd homepage.Rmd
+ls
+```
+
 ### Remove files
+
+```{sh rm}
+rm homepage.Rmd
+ls
+```
 
 ### Move files
 
+```{sh mv1}
+mkdir examples
+cp index.Rmd home.Rmd
+mv home.Rmd examples.Rmd
+cd examples
+ls
+```
+
+### Print content
+
+```{sh cat1}
+cat style.css
+```
+
+```{sh head}
+head style.css
+```
+
+### Create file
+
+```{sh touch}
+touch todo.txt
+ls
+```
+
+```{sh cat2}
+echo "hello" > file1.txt
+```
+
 ## Word count
 
-## References
+```{sh wc1}
+# characters, words and lines
+wc style.css
+```
+
+```{sh wc2}
+# characters
+wc style.css -c
+```
+
+```{sh wc3}
+# words
+wc style.css -w
+```
+
+```{sh wc4}
+# lines
+wc style.css -l
+```
+
+```{sh cleanup, echo=FALSE}
+rm todo.txt
+rm file1.txt
+rm examples.Rmd
+rmdir examples
+```

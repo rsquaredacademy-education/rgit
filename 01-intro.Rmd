@@ -2,6 +2,43 @@
 
 ## Version Control
 
+### What is version control?
+
+Version control, also known as revision control or source control is the 
+management of changes to documents. It lets you save a snapshot of your 
+complete project at any time you want. You can later compare the snapshots
+to check the differences. It is a system that records changes to files over 
+a period of time so that you can recall specific versions later. The files 
+can be:
+
+- software files
+- text files
+- presentations
+- books
+- images
+
+You may ask how it is different from a backup system. The main difference is 
+that version control records the changes made to a project and allows you
+to revert to a previous state.
+
+### Why use version control?
+
+It stems from the need for a logical way to organize and control revisions to
+documents. It allows us to:
+
+- revert to a specific version/state
+- compare changes over time
+- identify who made the changes
+- recover files in case of loss or other errors
+
+Version control will allow you to:
+
+- work on same set of files in a shared folder with your teammates
+- manage conflicts and merge all changes into a common version
+- get access to latest version of all project files
+- stop worrying about version naming system
+- know the difference between different versions
+
 ### Create Backups
 
 ### Track Changes
@@ -12,24 +49,30 @@
 
 ## Git 
 
-### Distributed
+Git is a version control system for tracking changes in files and coordinating
+work on those files among multiple people. It is 
 
-### Free
+- free
+- open source
+- most widely used
+- distributed
+- efficient
+- fast
+- easy to learn
+- secure
+- reliable
+- compatible with multiple operating system
 
-### Open Source
-
-### Flexible
-
-### Secure
+Git was developed by Linus Torvalds, the creator of the Linux operating system.
 
 ## GitHub
 
-## Pre-requisites
+It is a web based hosting for version control using Git. It is the hub where 
+developers store their projects and collaborate with others. It stores the 
+source code of software projects, provides a place for discussion, a platform
+for collaboration and contribution.
 
-### GitHub Account
-
-### R
-
-### RStudio
-
-### Git
+GitHub is the defacto home of open source software. You can view the source 
+code of several popular open source softwares and contribute to them. You can
+report bugs, request for new features, automate a lot of things and plan your
+projects as well.
