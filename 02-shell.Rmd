@@ -10,6 +10,8 @@ we have listed a few resources at the end of the chapter for reference.
 
 ### Current directory
 
+To get the current directory, use `pwd` (present working directory).
+
 ```{sh pwd}
 pwd
 ```
