@@ -18,10 +18,18 @@ pwd
 
 ### Navigate
 
+To navigate to a sub directory, use `cd` followed by the name of the directory.
+You don't need to type the full name of the directory, type a few letters and
+use TAB for auto completion. In the below example, we navigate to the `docs`
+directory using `cd`.
+
 ```{sh cd}
 cd docs
 pwd
 ```
+
+To return to the main directory, use `cd ..`. Remember there is a single space
+between `cd` and the 2 dots. 
 
 ```{sh cd2}
 cd ..
@@ -30,11 +38,16 @@ pwd
 
 ### View contents
 
+To list all the sub folders and files in a directory, use `ls`. If you want to 
+list hidden folders and files, use `ls -a`.
+
 ```{sh ls}
 ls
 ```
 
 ### Create directory
+
+`mkdir` will create a new folder in your current directory.
 
 ```{sh mkdir}
 mkdir examples
@@ -42,6 +55,9 @@ ls
 ```
 
 ### Remove directory
+
+`rmdir` will remove/delete empty folders. If you have files in the folder,
+you have to remove them first before removing the folder.
 
 ```{sh rmdir}
 rmdir examples
@@ -52,15 +68,22 @@ ls
 
 ### List files
 
+`ls` will list all the files in a folder. 
+
 ```{sh ls2}
 ls
 ```
+
+If you want to list hidden files, use `ls -a`.
 
 ```{sh ls3}
 ls -a
 ```
 
 ### Copy files
+
+To create a copy of a file, use `cp` followed by the name of the file and its
+extension and the name of the copied file.
 
 ```{sh cp}
 cp index.Rmd home.Rmd
@@ -69,12 +92,16 @@ ls
 
 ### Rename files
 
+`mv` can be used to rename files. 
+
 ```{sh mv}
 mv home.Rmd homepage.Rmd
 ls
 ```
 
 ### Remove files
+
+To remove files from a folder, use `rm` followed by the file name.
 
 ```{sh rm}
 rm homepage.Rmd
@@ -83,19 +110,26 @@ ls
 
 ### Move files
 
+To move files to a different folder or sub folder, use `mv`. In the below
+example, we use `mv` to move **home.Rmd** to the **examples** folder.
+
 ```{sh mv1}
 mkdir examples
 cp index.Rmd home.Rmd
-mv home.Rmd examples.Rmd
+mv home.Rmd examples
 cd examples
 ls
 ```
 
 ### Print content
 
+To view the contents of a file, use `cat` followed by the file name.
+
 ```{sh cat1}
 cat style.css
 ```
+
+`head` will return the first 10 lines of a file.
 
 ```{sh head}
 head style.css
@@ -103,10 +137,15 @@ head style.css
 
 ### Create file
 
+To create a new file, use `touch` followed by the file name and the extension.
+
 ```{sh touch}
 touch todo.txt
 ls
 ```
+
+If you want to add some content while creating the file, use `echo`, followed 
+by the content in quotes, the `>` symbol and the file name with extension.
 
 ```{sh cat2}
 echo "hello" > file1.txt
@@ -114,29 +153,43 @@ echo "hello" > file1.txt
 
 ## Word count
 
+`wc` will return the number of characters, words and lines in a file.
+
 ```{sh wc1}
 # characters, words and lines
 wc style.css
 ```
 
+The following can be used to return only one of the above:
+
+- `-c` for characters
+- `-w` for words
+- `-l` for lines
+
+#### Characters
+
 ```{sh wc2}
 # characters
-wc style.css -c
+wc -c style.css
 ```
+
+#### Words
 
 ```{sh wc3}
 # words
-wc style.css -w
+wc -w style.css 
 ```
+
+#### Lines
 
 ```{sh wc4}
 # lines
-wc style.css -l
+wc -l style.css 
 ```
 
 ```{sh cleanup, echo=FALSE}
 rm todo.txt
 rm file1.txt
-rm examples.Rmd
+rm examples/home.Rmd
 rmdir examples
 ```
