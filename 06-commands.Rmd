@@ -4,35 +4,59 @@
 
 ### Help
 
+`git help` will return a list of git commands along with their description.
+
 ### Version
+
+`git --version` will return the version of Git installed on your system.
 
 ## Configuration
 
+Tell Git who you are?
+
 ### Username
 
+`git config --global user.name "Sam Smith"`
+
 ### Email
+
+`git config --global user.email sam@example.com`
 
 ## Repository
 
 ### Initiate
 
+`git init` will initiate a local Git repository.
+
 ### Clone
+
+`git clone` will create a local copy of a remote repository.
 
 ## Tracking
 
 ### Status
 
+`git status` will show the status of a repository. List the files you've changed and those you still need to add or commit.
+
 ### Diff
 
 ### Add
+
+`git add` will add a file to the staging area.
+
+`git add -A` will add all new and changed files to the staging area.
 
 ### Reset
 
 ### Commit
 
+`git commit` will commit changes made to the repository.
+
 ## Synchronize
 
 ### Push
+
+`git push` will push changes to the remote repository.
 
 ### Fetch
 
